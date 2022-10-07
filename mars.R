@@ -2,3 +2,4 @@
 mars_data <- read.csv("mars.csv")
 # this is some new text
 # need to research filtering parameters
+mars_data %>% filter(light > 10)
